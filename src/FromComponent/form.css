@@ -1,0 +1,60 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.heading, .heading2 {
+   font-size: 45px;
+   padding: 20px;
+}
+
+fieldset {
+   border: none;
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   padding: 20px;
+}
+
+label {
+   font-size: 28px;
+   font-weight: bold;
+}
+
+input {
+   width: 15%;
+   font-size: 20px;
+   background-color: lightblue;
+   padding: 10px;
+   border-radius: 50px;
+}
+
+.btn-submit {
+   margin-top: 50px;
+   padding: 15px;
+   font-size: 20px;
+   font-weight: bold;
+   width: 15%;
+   border-radius: 50px;
+   background-color: lightblue;
+}
+
+.data-container {
+   margin: 50px auto;
+   border: 5px solid black;
+   width: 90%;
+   background-color: lightblue;
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+p {
+   border: 3px solid black;
+   border-radius: 20px;
+   background-color: pink;
+   padding: 15px;
+   font-size: 25px;
+   margin: 20px auto;
+}
